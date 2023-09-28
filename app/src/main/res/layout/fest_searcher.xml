@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:layout_marginTop="100dp"
+        android:clickable="true"
+        android:textSize="120sp"
+        android:focusable="true" />
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Поиск по названию мероприятия"
+        android:inputType="text" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/searchButton"
+        app:backgroundTint="@color/text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:text="Искать мероприятие" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/freeEventsButton"
+        app:backgroundTint="#FFCC25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="45dp"
+        android:textColor="#000000"
+        android:text="Бесплатные" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
