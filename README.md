@@ -1,3 +1,5 @@
-# SimpleAndroidApp
-# User Registration done with firebase
-# Users can send reviews about their own fests, this would be displayed in firebase realtime database
+# Android App forfinding fests
+Users registration done with api_fest  
+Users can find and search with different filters fests  
+Moderators can add new users/fests with real time database (sql-lite)
+
